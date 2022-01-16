@@ -1,0 +1,676 @@
+html {
+    height: 100%;
+}
+
+
+#doboz {
+    width: 94%;
+    text-align: center;
+    margin: 0 4% 0 3%;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    }
+
+.jumbotron{
+    background-color: rgba(255,255,255, 0);
+    margin: 3% 2% 3% 3%;
+    padding: 0;
+    }
+
+#lablec, .card-columns {
+    background-image: url('AEMH/img/whitemarble.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+}
+
+.card{
+   border: 1px solid black;
+   border-radius: 7px;
+   background-image: url('AEMH/img/whitemarble.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   opacity: 1;
+   }
+/*.container{
+    width: 95%;
+    height: 100%;
+    margin: 0 3% 0 3%;
+    padding: 0;
+    }
+*/
+.table, th, td{
+border: 1px solid #c3c3c3;
+
+}
+    
+#bemutatkozas {
+    margin: 3%;
+    }
+
+.rolunk {
+  text-align: left;
+  
+}
+
+.belter {
+     float: left;
+     background-color: white;
+}
+
+
+.adye{
+    margin: 0% 10px 0 10px;
+    text-align: justify;
+    }
+
+.ady{ 
+    margin: 0% 10px 0 10px;
+    text-align: justify;
+}
+
+.alairas{
+    margin-top: 3%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#lablec{
+    background-color: white;
+    text-align: center;
+    margin: 2% 2.5%;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 1%;
+    }
+
+    .articles{
+        background-color: white;
+        margin: 3%;
+    }
+h1{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 1%;
+    color: black;
+    margin: 0 5% 0 5%;
+}
+
+#fejlec{
+    width: 94%;
+    margin: 3%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#fejlec img{
+   width: 100%;
+}
+
+#plakatok{
+    width: 94%;
+    height: 75%;
+    background-color: white;
+    margin: 3%;
+    
+    
+         
+}
+
+#plakat2{
+    margin: 3%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+
+#lapszamok{
+    margin: 3%;
+    padding: 0 3% 3% 3%; 
+}
+
+#kozpont{
+    float: left;
+}
+
+input type[text:first-of-type]{
+    color: grey;
+}
+
+/*REGISZTRÁCIÓS FORM*/
+#registracio { 
+    margin: 3% 30% 3% 30%;
+    padding: 20px;
+}
+
+#reg-plate{
+    margin:3%;
+}
+
+.main-reg{
+    background:rgba(0,0,0, 0.9);
+    width:40%;
+    max-width: 40%;
+    min-width: 500px;
+    padding: 20px;
+    border-radius: 4px;
+    left: 50%;
+    top: 50%;
+}
+
+.main-reg .form-heading{
+	font-size: 25px;
+	color:#fff;
+	font-weight: 600;
+	text-align: center;
+	padding:5px 0px;
+	border-bottom: solid 1px #847E78;
+}
+
+.form-reg{
+	justify-content: center;
+	width: 100%;
+}
+
+.form-label{
+	width: 100%;
+        max-width: 150px;
+        min-width: 150px;
+	color:#fff;
+	padding: 10px 0px;
+}
+
+.form-input input{
+	padding: 10px 5px;
+	border-radius: 4px;
+	border:none;
+	outline:none;
+	width:250px;
+	color:black;
+        display: flex;
+}
+
+.form-input select{
+	width: 263px;
+   	border-radius: 4px;
+        border: none;
+        padding: 10px 5px;
+}
+
+.form-group{
+	display: flex;
+        margin: 10px 0px;
+}
+
+.form-reg form{
+	margin-top: 20px;
+	width:100%;
+}
+
+.bottom-footer{
+	border-top: 1px solid #847E78;
+	text-align: center;
+        padding: 10px 0px;
+}
+
+
+button[type="submit"]{
+	background:#398439;
+	border:none;
+	border-radius: 4px;
+	padding:8px 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+h3 {
+text-align: center;
+    }
+/*REGISZTRÁCIÓS FORM VÉGE*/
+
+/*GALÉRIA KEZD*/
+
+.gallery * {
+        margin: 0;
+        padding: 0;
+}
+
+#gall {
+    margin: 3%;
+}
+
+.gallery {
+        margin: 3% 2% 5% 23%;
+ 
+        /* Old browsers */
+}
+/* Picture container */
+
+.gallery-picture {
+        box-sizing: border-box;
+        display: inline-block;
+        margin-bottom: 75px;
+        min-width: 300px;
+        width: 24%;
+}
+/* Picture size and layout */
+
+.thumb {
+        width: 100%;
+        height: 225px;
+        margin: 0 auto;
+        perspective: 1000px;
+}
+
+.thumb a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-size: 0, cover;
+        transform-style: preserve-3d;
+        transition: all 0.5s;
+        transform: rotateX(80deg);
+        transform-origin: bottom;
+        border: none;
+        outline: none;
+        background-repeat: no-repeat;
+        background-position: center center;
+}
+
+.thumb a.pic1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180568/3d-reveal-picture-1_ctjp6j.jpg");
+}
+
+.thumb a.pic2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180568/3d-reveal-picture-2_ilktpf.jpg");
+}
+
+.thumb a.pic3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180567/3d-reveal-picture-3_df1dmj.jpg");
+}
+
+.thumb a.pic4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180568/3d-reveal-picture-4_h309hn.jpg");
+}
+
+.thumb:hover a,
+.thumb:focus a,
+.thumb:active a {
+        transform: rotateX(0deg);
+        transform-origin: bottom;
+}
+/* Bottom side */
+
+.thumb a:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        background: inherit;
+        background-size: cover, cover;
+        background-position: bottom;
+        transform: rotateX(90deg);
+        transform-origin: bottom;
+}
+/* Picture caption  style*/
+
+.thumb a span {
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        font: bold 12px/30px Ubuntu;
+        text-align: center;
+        transform: rotateX(-89.99deg);
+        transform-origin: top;
+}
+/* Picture shadow */
+
+.thumb a:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+        transition: all 0.5s;
+        opacity: 0.15;
+        transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+        transform-origin: bottom;
+        opacity: 1;
+        box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+        transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+/*GALÉRIA VÉGE*/
+
+@charset "utf-8";
+/* Delete all margins and paddings from Gallery items */
+
+.gallery-container * {
+        margin: 0;
+        padding: 0;
+}
+
+.gallery-container {
+        background: #efe6ac;
+        /* Old browsers */
+        
+        background: -moz-linear-gradient(top, #efe6ac 0%, #fefcea 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efe6ac), color-stop(100%, #fefcea));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(top, #efe6ac 0%, #fefcea 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(top, #efe6ac 0%, #fefcea 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(top, #efe6ac 0%, #fefcea 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to bottom, #efe6ac 0%, #fefcea 100%);
+        /* W3C */
+}
+/* Picture container */
+
+.gallery-picture {
+        box-sizing: border-box;
+        display: inline-block;
+        margin-bottom: 75px;
+        min-width: 300px;
+        width: 24%;
+}
+/* Picture size and layout */
+
+.thumb {
+        width: 100%;
+        height: 225px;
+        margin: 0 auto;
+        perspective: 1000px;
+}
+
+.thumb a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-size: 0, cover;
+        transform-style: preserve-3d;
+        transition: all 0.5s;
+        transform: rotateX(80deg);
+        transform-origin: bottom;
+        border: none;
+        outline: none;
+        background-repeat: no-repeat;
+        background-position: center center;
+}
+
+.thumb a.pic1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180568/3d-reveal-picture-1_ctjp6j.jpg");
+}
+
+.thumb a.pic2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180568/3d-reveal-picture-2_ilktpf.jpg");
+}
+
+.thumb a.pic3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180567/3d-reveal-picture-3_df1dmj.jpg");
+}
+
+.thumb a.pic4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/imelgrat/image/upload/v1504180568/3d-reveal-picture-4_h309hn.jpg");
+}
+
+.thumb:hover a,
+.thumb:focus a,
+.thumb:active a {
+        transform: rotateX(0deg);
+        transform-origin: bottom;
+}
+/* Bottom side */
+
+.thumb a:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        background: inherit;
+        background-size: cover, cover;
+        background-position: bottom;
+        transform: rotateX(90deg);
+        transform-origin: bottom;
+}
+/* Picture caption  style*/
+
+.thumb a span {
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        font: bold 12px/30px Ubuntu;
+        text-align: center;
+        transform: rotateX(-89.99deg);
+        transform-origin: top;
+}
+/* Picture shadow */
+
+.thumb a:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+        transition: all 0.5s;
+        opacity: 0.15;
+        transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+        transform-origin: bottom;
+        opacity: 1;
+        box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+        transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+/*KAPCSOLAT KEZD*/
+.wrapper {
+    background-color: azure;
+    color: darkblue;
+    width: 550px;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+    
+}
+
+.wrapper ul li .fa {
+  color: darkblue;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: darkblue;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: darkblue;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.row{
+    padding: 30px;
+    align-items: center
+}
+
+.map-box {
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5px;
+    
+}
+
+.contact{
+    text-align: center;
+}
+.contact-box{
+	 height: 365px;
+	 padding:15px;
+    background-color: lightgray;
+    text-align: center;
+}
+.contact-box ul li{
+	margin-bottom:0px;
+	padding:8px;
+}
+.contact i {
+    font-size: 25px;
+    color: #f65728;
+}
+.form-box-inner {
+    background: #ffffff8a;
+    padding: 15px;
+}
+/*KAPCSOLAT VÉGE*/
+
+
+#onkormanyzat, #konyvtar{
+    padding-top: 15%;
+    text-align: center;
+    }
+
+.elrendezes {
+    float: left;
+    width: 70%;
+}
+
+#address{
+    margin: 0;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+         }
+
+#onkormanyzat, #konyvtar, #socialicons, #terkep, #bemutatkozovideo {
+    display: inline;
+    float: left;
+}
+
+
+#cim{
+    text-align: center;
+    width: 33%;
+  }
+
+#emailcim{
+    text-align: center;
+    width:33%;
+ }
+
+#telefonszam{
+    text-align: center;
+    width: 33%;
+   }
+
+/*  KISZOMBORI HIRADÓ  */
+
+.container{
+           background-color: white;
+           width: 79%;
+           margin-left: 21%;
+       }
+
+iframe{
+           border: 1px solid black;
+           border-radius: 5px;
+           margin: 10px 5px 10px 50px;
+}
+
+#hirado {
+    margin: 3%;
+}
+
+/*  Közösségi pont  */
+#kozpon{
+    margin: 3%;
+    padding: 20px;
+}
+
+#social {
+    margin: 3%;
+    padding: 20px;
+}
+
+/* Szolgáltatások */ 
+
+#szolg{
+    margin: 3%;
+    padding: 20px;
+}
+
+/* Szabályzat */
+
+#szabaly{
+    margin: 3%;
+    padding: 20px;
+}
+
+/* Társoldalak */
+#tars {
+    margin: 3%;
+    padding: 20px;
+}
+
+#tars img {
+    margin: 20px;
+  }
